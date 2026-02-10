@@ -4,6 +4,14 @@ public class Person
     private String name;
     private double height;
 
+
+    public Person(String n, int a, double h)
+    {
+      age = a;
+      name = n;
+      height = h;
+    }
+
     public void setAge(int a)
     {
       age = a;
